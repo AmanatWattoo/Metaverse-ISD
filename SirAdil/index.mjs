@@ -1,10 +1,18 @@
-// Multidimensional Array
-const array1=[1,2,3,6];
-const array2=[array1,array1,4,5,9,7,8,6];
-console.log(array2);
-array2.sort();
-console.log(array2);
-console.log(array2[1][1]);
+//objects:
+const std1={
+    rollNUmber: "Piaic-1234",
+    firstName: "Amanat",
+    lastName: "Ali"
+}
+console.log(std1)
+console.log(std1.firstName);
+// // Multidimensional Array
+// const array1=[1,2,3,6];
+// const array2=[array1,array1,4,5,9,7,8,6];
+// console.log(array2);
+// array2.sort();
+// console.log(array2);
+// console.log(array2[1][1]);
 // console.log(array2);
 // const numArray=[50,30,60,18,19,7,13,99];
 // console.log(numArray);
