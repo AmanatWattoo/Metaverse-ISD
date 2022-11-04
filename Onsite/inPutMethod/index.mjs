@@ -1,8 +1,8 @@
 import PromptSync from "prompt-sync"
 let prompt=PromptSync();
-let  y=prompt("Enter Here Name  :  ");
 let name=[];
-for(let y=0; y<5;y++){
-    console.log(y);
-// name.push(i)
+for(let i=0; i<5;i++){
+let x=prompt("Enter Your name Here :     ");
+    name.push(x);
 }
+console.log(name);
