@@ -90,7 +90,7 @@ if(answer.length>=5){
     console.log("Congrats you have cleared the quiz test & Your Marks out 10 are =",answer.length)
 }
 else{
-    console.log("Failed best of luck for next time", wrong.length); 
+    console.log("Failed best of luck for next time your Wrong answers are = ", wrong.length); 
 }
 // result status 
 let status=("Result status is as")
