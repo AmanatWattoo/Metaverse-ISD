@@ -1,3 +1,4 @@
+// nodejs input method 
 import PromptSync from "prompt-sync"
 let prompt=PromptSync();
 let name=[];
