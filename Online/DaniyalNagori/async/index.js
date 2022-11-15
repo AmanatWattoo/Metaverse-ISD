@@ -1,4 +1,6 @@
 // console.log("helloo");
-    setTimeout(()=>{
-        console.log("its me called")
+console.log("First");    
+setTimeout(()=>{
+        console.log("its second")
     },3000);
+console.log("Its 3rd");
