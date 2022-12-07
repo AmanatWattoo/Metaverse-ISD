@@ -34,7 +34,7 @@ _____________________
 console.log(`${rainbow}`); 
 }
 
-welcome();
+ await welcome();
 async function askquestion() {
     const answer
     = await inquirer
@@ -59,24 +59,25 @@ async function askquestion() {
             message:"Enter the Second Value \n"
         }
  
-    ])
-    .then((answer)=>{
-        // objects are called back
+    ]);
 
-        if(answer.Operators=="Addition"){
-            console.log(chalk.blueBright (`${answer.num1}+${answer.num2} is = ${answer.num1 + answer.num2}`))
-        }
-        else if (answer.Operators=="Subtraction"){
-            console.log(`the Subtraction of ${answer.num1}-${answer.num2} is = ${answer.num1 - answer.num2}`)
-        }
-        else if (answer.Operators=="Division"){
-            console.log(`the Devision of ${answer.num1}/${answer.num2} is = ${answer.num1 / answer.num2}`)
-        }
-        else if(answer.Operators=="Multiplication"){
-            console.log(`the Subtraction of ${answer.num1}*${answer.num2} is = ${answer.num1 * answer.num2}`)
-        }
-    })
-}
+    if
+    (answer.Operators=="Addition"){
+        console.log(chalk.green (`${answer.num1}+${answer.num2} is = ${answer.num1 + answer.num2}`))
+    }
+    else if 
+    (answer.Operators=="Subtraction"){
+        console.log(chalk.yellow(`the Subtraction of ${answer.num1}-${answer.num2} is = ${answer.num1 - answer.num2}`))
+    }
+    else if
+     (answer.Operators=="Division"){
+        console.log(chalk.cyan(`the Devision of ${answer.num1}/${answer.num2} is = ${answer.num1 / answer.num2}`))
+    }
+    else if
+    (answer.Operators=="Multiplication"){
+        console.log(chalk.blue(`the Subtraction of ${answer.num1}*${answer.num2} is = ${answer.num1 * answer.num2}`))
+    }
+    }
 
 async function startagain() {
     do{
