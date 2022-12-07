@@ -10,7 +10,7 @@ async function welcome() {
     let rainbow = chalkAnimation.rainbow("Welcome to Calculator"); // start 
     await sleep();
     rainbow.stop;
-    console.log(chalkAnimation.pulse(`
+    console.log(chalk.green(`
 _____________________
 |  ___Amanat Ali ___  |
 | | JO           0. | |
