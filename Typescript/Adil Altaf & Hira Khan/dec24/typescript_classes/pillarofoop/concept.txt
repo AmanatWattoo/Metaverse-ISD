@@ -1,0 +1,18 @@
+oop hav four pillar....
+I:  Encapsulation     ... Restrict the access; 
+II: Obstraction       ... making anything simple from complexicity  
+III: Inheritance      ... inherit the properity form parent class to child class 
+IV: Polymarphism      ... Consisted of two words.
+    Poly : many     :  marphism :  forms 
+    perform a sing action any different ways.
+    for example a woman can be : 
+                        Mother
+                        Sister
+                        Wife
+                        Developer
+                        Teacher  
+            Etc 
+Depends upon the nature of roll. 
+I: Encapsulation: 
+Restrict the acces of object for example enclose in capsule.
+keeping in mind properties of objects can be public & private; 
