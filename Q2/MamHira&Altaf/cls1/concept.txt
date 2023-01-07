@@ -1,0 +1,34 @@
+Quater No 2
+Agenda:
+2D user inftercface development.
+3d developmen in 4th Quater.
+Quater3 will be on Block Chain 
+nextjs and typescript chakara ui
+2D user inftercface
+vercel:
+clouds service prider which aws application hositing services. 
+lot more easier and manageable. 
+managing development and hositings. 
+instead of higher employees pay to vercel with a signle deploye the 
+funcations.
+nextjs is framwork;
+1 user inftercface.
+interact with application.
+2. routing
+user in application how to navigate how to move form one page to page
+3. data fetching
+4. Rendering
+static and dynmic veiw
+5. intergration
+payment services.
+6. infrastructure
+deoploye, host, run
+7. Performance.
+how to optimise the applications
+8. scalability
+in pervouse application are not secalable means user load not bear.
+built the flexibilitygo or shirnk on the bases of traffic.
+9. Developer experience
+make development easier.
+
+

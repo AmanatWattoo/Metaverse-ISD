@@ -1,0 +1,7 @@
+interface never create new object.
+obstract class never create a object
+for this to implement this use Derived keyword. 
+three methods of obstraction
+type, method, interfaces
+in interface all methods are abstracts
+Encapsulatio
