@@ -1,0 +1,40 @@
+React is libary.
+A component to which a user directly interact known as Client Component
+Nextjs is open source javascript framwork build by vercel.
+vercel: New Colud provider like AWS, Microsoft clouds etc.
+vercel provides the services of hosting on AWS. 
+AWS Configration is very difficult can be done only professionals. 
+Hype of nextja. Nextjs is a framework of React. 
+Points for modern application 
+(i) user interface 
+    a. user : you
+    b. Interface: thing for interaction. 
+(ii) Navigation within pages. 
+(iii) data fetching external data to desplay on page. getted from other application
+(iv) Rendering 
+(v)Intergration : 3rd party services 
+   example : statictics from google
+(vi) inforstruction : deploy ,host and run 
+(vii) Perfomance: application fast and user interaction level check.
+(viii) Scalability: go or shrink on the bases of traffic
+(ix) Developer experience 
+    Example : VSCode suggestion using typscript intelliscence avoid many.
+    libraries and framwork to save time. 
+only for UI purposes we will use react and for remaining purposes used nextjs framework. 
+
+CSR : 
+Client Side Rendering : Data loaded on Browser
+SSR: 
+Server Side Rendering : Data loaded on Server and whole application viewed on brower atonce. 
+no place hodlder shown 
+SSG: 
+For simple pages SSG is good option,used where static content existed. 
+Static Content : Unchangeable Content. 
+
+
+Router is used instead of 'Link'  but it used when we have to redirect something. like in button onClick value is 
+redirected using use Router
+
+
+
+

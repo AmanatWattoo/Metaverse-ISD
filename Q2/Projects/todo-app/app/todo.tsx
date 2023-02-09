@@ -1,23 +1,35 @@
 "use client"
-import { Box, Button, Flex, Heading, Input, list } from "@chakra-ui/react";
-import { useState } from "react";
-import { VStack } from "@chakra-ui/react";
 
-const todo =()=>{
-    const [list,setList] =useState(["Amanat","Ali","Wattoo"])
-return(
-    <>
-    <VStack>
-        <Heading color={"facebook.800"}>Welcome todo app</Heading>
-        
+import { Box, color, Flex, Heading, Input } from "@chakra-ui/react"
+import { useState } from "react"
+
+export default function Todo(){
+   const [kaam , setkaam] = useState([
+     {todoText: "Task 1", completed: false},
+     {todoText: "Task 2", completed: true},
+     {todoText: "Task 3", completed: true},
+     {todoText: "Task 4", completed: false}, 
+]);
+     const onClickHandler=(newElam:any)=>{
+        const newKaam=kaam.map(todo=>{
+            return
+            todo
+            
+        })
+        setkaam(newKaam)
+     }
+    return(
+        <>
         <ul>
-            {list.map((elm)=>{
-                return<li key={elm}>{elm}---</li>
+            {kaam.map((elm)=>{
+                return <li style={{color: elm.completed?"Orange" : "teal",
+                 fontStyle: "oblique"}}
+                  key={ elm.todoText}>
+                  <input type="checkbox" checked={elm.completed}
+                   onClick={()=>{onClickHandler(elm)}}/>  
+                    {elm.todoText}</li>
             })}
         </ul>
-    </VStack>
-    </>
-)    
+         </>
+    )
 }
-
-export default todo;
