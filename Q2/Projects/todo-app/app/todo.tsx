@@ -12,9 +12,12 @@ export default function Todo(){
 ]);
      const onClickHandler=(newElam:any)=>{
         const newKaam=kaam.map(todo=>{
+            if(todo.todoText == newElam.todoText){
+
+                todo.completed = ! todo.completed
+            }
             return
             todo
-            
         })
         setkaam(newKaam)
      }

@@ -1,0 +1,24 @@
+Basics are element which makes composition.
+Things which are compolsory (i) Convience, (ii) theme process (iii) evaluation 
+components: are the foundamental elements which we'll used 
+Tool: Tool is a group of all the subjects which cover all the elements of the components.
+like 'linesheet', fontcolor, textsize etc. 
+Line : Tavelling distance b/w two points
+Shape: When linen closed eachother to form a shape.
+Forms: Is 3D object inwhich z-axis is used 
+color & values: intensity of color
+Taxtures: like "wood texture" is a important part of the design. 
+Reflection: Gives the metal subject 
+Refraction: Gives the Glass shape.
+Size: "smal" "big", "large",
+shape measured in gandas propotion 
+Balance: symtrical and asymtrical balance
+.....
+composition: 
+Placement/Division: 
+top right, bottom right, top left, bottom right
+Starting area is at Left and Ending aea at Right. 
+Division: Dividing the element like canvas can be divided on the baes of wight.
+division is basically deviding a area. , shapes, canvas,  all the elemets can be divided.
+Optically Divison: Anthing to divide Visually known as roll of 3rd.
+Roll of 3rd: Setting of composition 
